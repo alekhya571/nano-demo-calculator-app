@@ -9,7 +9,7 @@ class Result:
 
 app = Flask(__name__)
 
-@@ -7,5 +13,17 @@
+@app.route("/calculator/greeting", methods=['GET'])
 def greeting():
     return 'Hello world!'
 
